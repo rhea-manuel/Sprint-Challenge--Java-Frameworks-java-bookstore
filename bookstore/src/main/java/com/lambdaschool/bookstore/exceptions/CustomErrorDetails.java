@@ -51,4 +51,7 @@ public class CustomErrorDetails
         errorDetails.put("errors", helperFunctions.getConstraintViolation(this.getError(webRequest)));
         return errorDetails;
     }
+
+
+
 }
